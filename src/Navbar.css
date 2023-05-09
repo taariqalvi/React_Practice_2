@@ -1,0 +1,16 @@
+nav a {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    margin: 1px auto;
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: purple;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
